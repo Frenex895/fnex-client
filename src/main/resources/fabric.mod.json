@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "fnex",
+  "version": "${version}",
+  "name": "FNEX CLIENT",
+  "description": "Premium PvP client: custom menu, HUD modules, crosshair, cosmetics and profiles.",
+  "authors": ["FNEX"],
+  "license": "MIT",
+  "icon": "assets/fnex/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.fnex.FnexClient"] },
+  "mixins": ["fnex.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
